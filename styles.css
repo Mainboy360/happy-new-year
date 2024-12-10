@@ -64,7 +64,7 @@
   .container {
     text-align: justified;
     padding: 20px;
-    margin-top: 130px;
+    margin-top: 300px;
   }
   
   /* Change the cursor color */
@@ -75,13 +75,13 @@
   .footer{
     color: white;
     text-align: center;
-    margin-top: 200px;
-    font-size: 1.3rem;
+    margin-top: 500px;
+    font-size: 2rem;
   }
 
   
     h2 {
-      font-size: 4rem;
+      font-size: 5rem;
       text-align: center;
     }
 
