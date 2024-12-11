@@ -59,6 +59,26 @@
   font-style: italic;
 }
 
+/* <uniquifier>: Use a unique and descriptive class name
+ <weight>: Use a value from 100 to 900
+*/
+.doto-test {
+  font-family: "Doto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "ROND" 0;
+}
+
+.rubik-lines-regular {
+  font-family: "Rubik Lines", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
   
   
   .container {
@@ -69,14 +89,15 @@
   
   /* Change the cursor color */
 .typejs-cursor {
-  color: yellow;  /* Change to your desired color */
+  color: white;  /* Change to your desired color */
 }
   
   .footer{
-    color: white;
+    color: #FFF6E9 ;
     text-align: center;
     margin-top: 500px;
     font-size: 1.5rem;
+    font-style: italic;
   }
 
   
