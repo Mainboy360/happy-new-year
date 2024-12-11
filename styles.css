@@ -1,3 +1,8 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 
 .chakra-petch-light {
   font-family: "Chakra Petch", sans-serif;
@@ -84,7 +89,7 @@
   .container {
     text-align: justified;
     padding: 20px;
-    margin-top: 300px;
+    margin-top: 200px;
   }
   
   /* Change the cursor color */
@@ -95,7 +100,7 @@
   .footer{
     color: #FFF6E9 ;
     text-align: center;
-    margin-top: 500px;
+    margin-top: 300px;
     font-size: 1.5rem;
     font-style: italic;
   }
@@ -106,3 +111,21 @@
       text-align: center;
     }
 
+
+.mail {
+  
+}
+
+
+img[src$="svg"] {
+  width: 80px;
+  height: 100%;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 500px;
+  gap: 50px;
+}
