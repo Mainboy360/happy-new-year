@@ -114,8 +114,18 @@
     }
 
 
-img[src$="svg"] {
+img[src^="twitter"] {
   width: 80px;
+  height: 100%;
+}
+
+img[src$="svg"] {
+  width: 90px;
+  height: 100%;
+}
+
+img[src$="png"] {
+  width: 110px;
   height: 100%;
 }
 
@@ -141,6 +151,3 @@ img[src$="svg"] {
   margin-top: 40px;
 }
 
-img[src^="link2"] {
-  width: 700px;
-}
