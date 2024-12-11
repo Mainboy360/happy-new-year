@@ -142,5 +142,5 @@ img[src$="svg"] {
 }
 
 img[src^="link2"] {
-  width: 200px;
+  width: 700px;
 }
